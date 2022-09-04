@@ -1,3 +1,6 @@
+import Button from "./Button"
+import Title from "./Title"
+
 export default function Meetups () {
 
     const metups = [
@@ -25,7 +28,7 @@ export default function Meetups () {
     return (
         <div className="mx-2 my-5">
             <div className="d-flex justify-content-between align-items-center">
-                <h1>Past Meetups</h1>
+                <Title value="Past Meetups"/>
                 <button className="btn">See All</button>
             </div>
             <div className="d-flex justify-content-between text-light flex-wrap">
@@ -34,7 +37,7 @@ export default function Meetups () {
                     <div className="pb-3 border-bottom">{e.date}</div>
                     <div className="mt-2 mb-4" style={{width : "70%"}}>#{e.number} JakartaJS April Meetup with {e.location}</div>
                     <div>{e.went}<span className="text-black"> Went</span></div>
-                    <button className="btn btn-light p-2 px-4 mt-3">View</button>
+                    <div className="mt-4"><Button text="View"/></div>
                 </div>
                 )}
             </div>

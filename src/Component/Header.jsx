@@ -1,3 +1,5 @@
+import Button from "./Button"
+
 export default function Header () {
 
     const Name = "Muchlis Aryana" 
@@ -24,7 +26,9 @@ export default function Header () {
                         <h5 className="py-2">{Name}</h5>
                     </div>
                 </div>
-                <button className="btn btn-light px-5 p-3 mt-5 fw-bold text-secondary">Join Us</button>
+                <div className="mt-5">
+                <Button text="Join Us"/>
+                </div>
             </div>
         </div>
         </>

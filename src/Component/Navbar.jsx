@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import Button from "./Button"
 
 export default function Navbar () {
     return (
@@ -20,7 +21,7 @@ export default function Navbar () {
                     <li class="nav-item dropdown">
                     </li>
                 </ul>
-                <button className="btn btn-secondary px-3">Login</button>
+                <Button text={'Login'} />
                 </div>
             </div>
 </nav>

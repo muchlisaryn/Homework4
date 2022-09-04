@@ -1,3 +1,7 @@
+import Title from "./Title"
+
+
+
 export default function Member () {
 
     const name = "Muchlis"
@@ -6,7 +10,7 @@ export default function Member () {
     return (
         <div className="mx-2 my-5">
         <div className="d-flex justify-content-between align-items-center">
-        <h1>Members</h1>
+        <Title value={'Members'}/>
         <button className="btn">See All</button>
         </div>
         <div className="bg-secondary d-flex p-3 align-items-center fw-semibold text-light">

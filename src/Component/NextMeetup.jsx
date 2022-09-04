@@ -1,7 +1,9 @@
+import Title from "./Title";
+
 export default function NextMeetup () {
     return (
         <div className="mx-2 my-5">
-        <h1>Next Meetup</h1>
+        <Title value={"Next Meetup"}/>
         <div className="bg-secondary  my-3 p-4 text-light">
             <h5>Awesome meetup and ecent</h5>
             <h6 className="date mb-5">25 January 2019</h6>
@@ -17,9 +19,7 @@ export default function NextMeetup () {
                See you there!
                <br/><br/>
                Best, Hengki, Giovanni, Sofian, Reza, Agung The JakartaJS Organizers
-            </p>
-            
-            
+            </p>       
         </div>
         </div>
     )
